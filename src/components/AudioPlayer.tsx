@@ -1,23 +1,19 @@
-import React, { useRef } from "react";
+import React from "react";
 
-interface AudioPlayerProps {
-    src: string;
-    autoplay?: boolean;
+function AudioPlayer() {
+  return (
+    <div
+      style={{
+        marginTop: "16px",
+        padding: "12px",
+        border: "1px solid #ccc",
+        borderRadius: "8px",
+      }}
+    >
+      <b>Audio Player</b>
+      <p>Placeholder for ambient audio controls (play/pause, volume).</p>
+    </div>
+  );
 }
-
-const AudioPlayer: React.FC<AudioPlayerProps> = ({ src, autoplay = false }) => {
-    const audioRef = useRef<HTMLAudioElement>(null);
-
-    const play = () => audioRef.current?.play();
-    const pause = () => audioRef.current?.pause();
-
-    return (
-        <div className="audio-player">
-            <audio ref={audioRef} src={src} autoPlay={autoplay} />
-            <button onClick={play}>Play</button>
-            <button onClick={pause}>Pause</button>
-        </div>
-    );
-};
 
 export default AudioPlayer;
