@@ -1,1 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eaeaea;
+}
 
+h1 {
+  color: #222;
+}
+
+p {
+  color: #555;
+}
