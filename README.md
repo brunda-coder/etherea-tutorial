@@ -153,4 +153,5 @@ A formal license may be added later.
 
 ## ✨ Credits
 
-Developed as part of ongoing research into adaptive digital workspaces.
+**Brunda G**
+Lead developer, concept, implementation, documentation.
