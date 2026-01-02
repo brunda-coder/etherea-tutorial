@@ -10,21 +10,23 @@ This project currently focuses on the **UI layer**, with future plans for sensor
 ## 📂 Project Structure
 
 ```
-project-root/
- ├── package.json
- ├── tsconfig.json
- ├── vite.config.ts
- ├── index.html
- └── src/
-      ├── App.tsx
-      ├── main.tsx
-      ├── index.css
-      └── components/
-           ├── AudioPlayer.tsx
-           ├── Avatar3D.tsx
-           ├── Background3D.tsx
-           ├── EIVisualizer.tsx
-           └── ScenePlayer.tsx
+etherea-tutorial/
+├── README.md
+├── .gitignore
+├── main.py
+├── requirements.txt
+├── assets/
+│   └── (images, sounds, models, etc.)
+├── components/
+│   ├── __init__.py
+│   ├── audio.py
+│   ├── avatar.py
+│   ├── background.py
+│   ├── ei_signals.py
+│   ├── db.py
+│   └── utils.py
+└── data/
+    └── (sqlite db, logs, runtime files)
 ```
 
 > Important: There should be **no duplicated folders** such as  
